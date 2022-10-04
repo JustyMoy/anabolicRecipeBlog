@@ -174,4 +174,7 @@ module.exports = {
       res.redirect("/profile");
     }
   },
+  guestAcc: async (req, res) => {
+    res.render('guest')
+  }
 };

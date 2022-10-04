@@ -16,5 +16,6 @@ router.get("/signup", authController.getSignup);
 router.get("/my-recipes", ensureAuth, postsController.getRecipes);
 router.get("/bookmarks", ensureAuth, postsController.getBookmarks);
 router.post("/signup", authController.postSignup);
+router.get("/guest", postsController.guestAcc);
 
 module.exports = router;
