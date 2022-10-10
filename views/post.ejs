@@ -83,11 +83,11 @@
     <div class="row">
       <h1><%= post.title %></h1>
       <p><%= post.caption %></p>
-      <p>By: <%= post.user %></p>
+      <p>By: <%= post.user.userName %></p>
       
       <div class="row">
 
-        <%if(post.user == user.id){ %>
+        <%if(post.user.id == user.id){ %>
         <h3 class="col">Edit Post</h3>
         <form
 
@@ -120,7 +120,7 @@
           <button class="<%if(post.bookmarks.includes(user.id)){ %> bi bi-bookmark-fill<%} else { %> bi bi-bookmark <% }%>
             btn btn-primary" type="submit"></button>
           </form>
-          <%if(post.user == user.id){ %>
+          <%if(post.user.id == user.id){ %>
             <form
               action="/post/deletePost/<%= post.id %>?_method=DELETE"
               method="POST"
