@@ -10,11 +10,10 @@ const logger = require("morgan");
 const connectDB = require("./config/database");
 const mainRoutes = require("./routes/main");
 const postRoutes = require("./routes/posts");
-const dotenv = require('dotenv')
 
 
 //Use .env file in config folder
-require("dotenv").config({path: 'config.env'});
+require("dotenv").config();
 
 // Passport config
 require("./config/passport")(passport);
