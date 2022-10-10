@@ -17,5 +17,7 @@ router.get("/my-recipes", ensureAuth, postsController.getRecipes);
 router.get("/bookmarks", ensureAuth, postsController.getBookmarks);
 router.post("/signup", authController.postSignup);
 router.get("/guest", postsController.guestAcc);
+router.delete("/deletePost/:id", postsController.deletePost);
+
 
 module.exports = router;
