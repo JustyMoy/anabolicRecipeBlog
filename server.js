@@ -18,7 +18,7 @@ require("dotenv").config();
 // Passport config
 require("./config/passport")(passport);
 
-//Connect To Database
+//Connect To Database mongo
 connectDB();
 
 //Using EJS for views
