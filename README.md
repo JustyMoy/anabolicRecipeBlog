@@ -2,7 +2,7 @@
 
 A high protein and low fat cheat meal alternative to help with dieting!
 
-**Link to project:** https://cheat-meals-blog-network.herokuapp.com/
+**Link to project:** https://anabolicsmorgasbord.fly.dev/
 
 
 <img src="https://media.giphy.com/media/8kToMEoYx5hpX5lcY4/giphy.gif" />
