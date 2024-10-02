@@ -114,3 +114,5 @@ exports.postSignup = (req, res, next) => {
     }
   );
 };
+
+//updated template

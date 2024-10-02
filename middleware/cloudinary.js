@@ -9,3 +9,5 @@ cloudinary.config({
 });
 
 module.exports = cloudinary;
+
+//updated template

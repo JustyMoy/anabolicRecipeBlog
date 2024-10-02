@@ -97,6 +97,7 @@ module.exports = {
     } catch(err){
     }
     //if already liked we will remove user from likes array
+    //updated template
     if(liked){
       try{
         await Post.findOneAndUpdate({_id:req.params.id},

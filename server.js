@@ -13,6 +13,7 @@ const postRoutes = require("./routes/posts");
 
 
 //Use .env file in config folder
+//updated template
 require("dotenv").config();
 
 // Passport config

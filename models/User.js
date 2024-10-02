@@ -8,6 +8,7 @@ const UserSchema = new mongoose.Schema({
 });
 
 // Password hash middleware.
+//updated template
 
 UserSchema.pre("save", function save(next) {
   const user = this;

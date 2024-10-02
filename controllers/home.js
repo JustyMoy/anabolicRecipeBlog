@@ -3,3 +3,5 @@ module.exports = {
     res.render("index.ejs");
   },
 };
+
+//updated template
